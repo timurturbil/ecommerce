@@ -47,7 +47,7 @@
   - sipariş içerisindeki ürünlerin tutulduğu tablodur.
 
 ### Veritabanı Tablo İlişkileri:
-![img.png](img.png)
+![img_1.png](img_1.png)
 
 ### Akış (Flow):
 #### Program başlatıldığında,
