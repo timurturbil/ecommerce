@@ -1,4 +1,4 @@
-## Spring Boot ile yazılmış bir e-ticaret uygulaması.
+## Spring Boot ile yazılmış e-ticaret uygulaması
 
 ### Genel olarak e-ticaret uygulamalarında görülen müşteri oluşturma, sepete ürün ekleme/çıkarma, sipariş oluşturma gibi temel işlemleri içerir. 
 
@@ -66,6 +66,7 @@
 - Ancak bir müşterinin birden fazla siparişi olabilir.
 - Sipariş verildikten sonra sepet boşaltılır.
 - Ürünler üzerinde stok takibi yapılır. Stokta kalmayan ürünler sepete eklenemez.
+- Sipariş geçtikten sonra siparişi verilen ürünün fiyatı sistemde güncellense de müşteri satın aldığı anki fiyatı geçmişe yönelik görebilir.
 
 
 
