@@ -2,7 +2,8 @@
 
 ### Genel olarak e-ticaret uygulamalarında görülen müşteri oluşturma, sepete ürün ekleme/çıkarma, sipariş oluşturma gibi temel işlemleri içerir. 
 
-### Restful API olarak yazılmamıştır. İlgili servisler main method içerisinde çağrılmıştır.
+### Postman Dökümantasyonu; 
+https://www.postman.com/science-astronomer-97868904/public-workspace
 
 ### Proje Detayları:
 - Veritabanı: PostgreSQL
@@ -49,10 +50,9 @@
 ### Veritabanı Tablo İlişkileri:
 ![img_1.png](img_1.png)
 
-### Akış (Flow):
-#### Program başlatıldığında,
-    1. Bir müşteri sisteme eklenir.
-    2. Ürünler sisteme eklenir.
+### Örnek Kullanım Senaryosu:
+    1. Ürünler sisteme eklenir. 
+    2. Bir müşteri sisteme eklenir.
     3. AddProductToCart servisi ile müşterinin sepetine ürünler eklenir.
     4. Eklenen ürünlerin miktarı UpdateCart servisi ile güncellenir.
     5. Ürünlerden birinin RemoveProductFromCart servisi ile sepetten çıkarılması sağlanır.
